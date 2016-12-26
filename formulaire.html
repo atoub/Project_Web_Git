@@ -8,11 +8,13 @@
 	</head>
 	
 	<body>
+	
 		<header id="haut">
 			<h1> Projet Tuteurés </h1>
 			<h2>DUT Informatique </h2>
 			<h3> IUT Université Lyon 1 </h3>
 		</header>
+		
 		<nav>
 			<ul>
 			
@@ -36,22 +38,33 @@
 					</li>
 			</ul>
 			<a href="#haut" class="remonter">Haut de page</a>
-		</nav>	
+		</nav>
 		
 		<section>
-			<article>
-				<h4 class="titre">Bienvenue sur le site de présentation des projets tuteurés.</h4>
+				<form>
+			
+				<label for="prenom">Votre Prénom</label> : <input type="text" name="prenom" id="prenom" /> <br /><br />
+				<label for="nom">Votre Nom</label> : <input type="text" name="nom" id="nom" /> <br /><br />
+				 <label for="catégorie">Vous êtes ?</label><br /><br />
+				 <select name="catégorie" id="catégorie">
+					<option value="choisir">Choisir...</option>
+					<option value="étudiant">Etudiant</option>
+					<option value="enseignant">Enseignant</option>
+					<option value="Autre">Autre</option>
+				</select><br /><br />
+				<label for="ameliorer">Avez-vous des suggestions/questions pour que je puisse améliorer mon site ?</label><br /><br />
+				<textarea name="ameliorer" id="ameliorer" rows="10" cols="50">Taper ici votre commentaire.</textarea><br /><br />
+				<label for="mail">Votre Adresse Mail</label> :<input type="email" id="mail" /> <br /><br />
+				<input type="submit" value="Envoyer" />
 				
-				<p class="corps">Sur ce site vous trouverez les présentations des différents projets Tuteurés, les modalités et les exigences attendues, ainsi qu'une explication détaillée de notre projet tutoré : Sauron.</p>
-								 
-			</article>
+				</form>
 		</section>
 		
 		<footer>
 			<ul>
 				<li><a href="sources.html">Liens complémentaires</a></li>
 				<li><a href="formulaire.html">Formulaire</a></li>
-			</ul>		
+			</ul>
 		</footer>
 	</body>
 </html>
