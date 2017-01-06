@@ -13,9 +13,9 @@
 .remonter {
 	position: fixed;
 	display: inline-block;
-	border: 5px rgb(185,125,66) ridge;
+	border: 5px white ridge;
 	border-radius: 10px;
-	background-image: url("../Image/papier.gif");
+	background-image: url("../Image/paper.PNG");
 	margin-top: 10px;
 	width: 14%;
 	text-align: center;
@@ -23,7 +23,7 @@
 
 .remonter a {
 	color: white;
-	font-weight: bold;
+	text-decoration: bold;
 	font-size: 20px;
 }
 
@@ -31,27 +31,25 @@ header{
 	border: 5px white ridge;
 	text-align: center;
 	font-family:BaskervilleOld;
-	color: white;
-	background-color: grey;
-	margin: 0;
+	color: black;
+	background-image: url("../Image/paper.png");
 }
 
 body
 {
-	background-image: url("../Image/black.png");
+	background-image: url("../Image/black.PNG");
 	background-repeat: repeat;
-	margin:0;
-	padding:0;
+	margin: 0;
 }
 
 nav{
 	display: inline-block;
-	border: 5px rgb(185,125,66) ridge;
+	border: 5px white ridge;
 	border-radius: 10px;
 	width:15%;
 	margin-top:50px;
-	margin-left: 10px;
-	background-image: url("../Image/green.png");
+	margin-left: 0.5%;
+	background-image: url("../Image/paper.png");
 	vertical-align:top;
 	position:fixed;
 }
@@ -60,8 +58,8 @@ nav{
 
 section{
 	display: inline-block;
-	border: 5px rgb(220,136,10) ridge;
-	border-radius: 30px;
+	border: 5px white ridge;
+	border-radius: 10px;
 	padding-left:20px;
 	padding-bottom:20px;
 	margin-top:50px;
@@ -77,14 +75,6 @@ article{
 	padding-top:20px;
 	padding-right:20px;
 }
-form {
-	font-family:"Baskerville Old Face";
-	font-size: 20px;
-	padding-top:20px;
-	padding-right:20px;
-}
-	
-	
 .titre{
 	text-align: center;
 	font-size: 30px;
@@ -99,22 +89,19 @@ form {
 .bouton1{
 	text-align: right;
 	font-size: 15px;
-	font-style: italic;
-	text-decoration: underline;
 }
 .citation{
 	font-style: italic;
 	text-align: center;
 }
 footer{
-	border:2px rgb(185,125,66) solid;
+	border:2px white solid;
 	width:81.5%;
 	text-align:center;
 	border-radius: 20px;
-	background-image: url("../Image/papier.gif");
+	background-image: url("../Image/paper.png");
 	margin-left:17%;
 	margin-top: 50px;
-	margin-bottom: 30px;
 }
 .sources{
 	margin-left: auto;
@@ -142,10 +129,7 @@ li{
 }
 
 footer li{
-	list-style-type:none;	
-}
-footer a {
-	color: white;
+	list-style-type:none;
 }
 
 footer ul.links li a{
@@ -173,7 +157,7 @@ td, th
 		margin-top: 2%;
 		display: block;
 		border-radius: 15px;
-		width: 99%;
+		width: 98%;
 		position: static;
 		text-align: center;
 	}
@@ -190,6 +174,7 @@ td, th
 	nav ul li ul li {
 		display: block;
 		margin-top: 10px;
+		margin-bottom: 15px;
 	}
 
 	nav ul {
@@ -217,7 +202,7 @@ td, th
 	footer {
 		margin-left: 0;
 		margin-right: 0;
-		width: 99%;
+		width: 99.5%;
 	}
 }
 
