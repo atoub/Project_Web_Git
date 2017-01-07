@@ -75,6 +75,10 @@ article{
 	padding-top:20px;
 	padding-right:20px;
 }
+.image{
+	margin: auto;
+	width: 100%;
+}
 .titre{
 	text-align: center;
 	font-size: 30px;
